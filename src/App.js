@@ -12,7 +12,7 @@ constructor(){
         if (this.state.isLoggedin===true) {
             message ='You are logged in'
         } else {
-            message ='You are not logged in HELOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO'
+            message ='You are not logged in HELO'
         }
         return(
             <h1>{message}</h1>
