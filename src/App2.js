@@ -20,7 +20,7 @@ class App2 extends React.Component{
     }
     render(){
         let buttonText= this.state.isLoggedIn ? 'LOG OUT':'LOG IN'
-        let displayText = this.state.isLoggedIn ? 'Logbabe heloooooooooooooooo Out': 'Logged In'
+        let displayText = this.state.isLoggedIn ? 'Logbabe he Out': 'Logged In'
         return(
          <div>
              <button onClick={this.handleClick}>{buttonText}</button>
