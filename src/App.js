@@ -10,7 +10,7 @@ constructor(){
     render(){
         let message
         if (this.state.isLoggedin===true) {
-            message ='You are logged in GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG'
+            message ='You are logged in GGGGGG'
         } else {
             message ='You are not logged in HELO'
         }
